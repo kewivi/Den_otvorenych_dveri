@@ -131,7 +131,7 @@ div.obsah {
     color:#666;
     font-size: 53px;
     padding-top:20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 #info>article>h1>span {
     color:#23b9ce;
@@ -142,8 +142,12 @@ div.obsah {
     margin-top: 4%;
     color: #666;
     font-size: 19px;
-    font-weight: 100;
+    font-weight: 300;
 
+}
+
+strong {
+    font-weight: 500;
 }
 
 #info>aside>img {
