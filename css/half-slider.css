@@ -171,25 +171,57 @@ body>div.obsah, div.obsah * {
 
 /*----------------------------*/
 
-div.recap,.recap * {
-    outline: 1px solid black;
-}
-
 
 div.recap {
     clear:both;
-    display:block;
-    text-align: center;
-    margin-top: 50px;
+    display:inline-block;
+    margin-top: 100px;
+    width: 100%;
+    margin: inherit auto;
 }
 
 .recap ul {
     list-style-type: none;
 }
 
+.recap li {
+
+    display:block;
+}
+
 div.bodka {
-    width:50px;
-    height: 50px;
+    width:100px;
+    height: 100px;
     border-radius:50%;
     background: #23b9ce;
+    display: inline-table;
+    text-align: center;
+}
+
+span.bodka {
+    display: table-cell;
+    vertical-align: middle;
+    color: #f7f7f7;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.recap li:first-child {
+    margin-bottom: 50px;
+}
+
+li>span:not(.bodka){
+    display: inline;
+    font-size: 38px;
+    padding: 0;
+    margin: 0;
+    position:relative;
+    top:-5px;
+    margin-left: 50px;
+}
+
+span.special {
+    color:#23b9ce;
+    font-weight: 400;
+    padding-left: 10px;
 }
