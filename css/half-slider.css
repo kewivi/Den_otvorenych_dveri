@@ -206,7 +206,7 @@ span.bodka {
     font-size: 30px;
 }
 
-.recap li:first-child {
+.recap li {
     margin-bottom: 50px;
 }
 
@@ -265,5 +265,9 @@ span.special {
 div.video {
     display:block;
     text-align: center;
+    padding: 30px;
+    background: #23b9ce;
+    margin: 50px;
+
 }
 
