@@ -285,4 +285,7 @@ footer{
     margin:0;
     padding:0;
     text-align: center;
+    color:#555;
+    background: #333;
+    padding: 5px 0;
 }
