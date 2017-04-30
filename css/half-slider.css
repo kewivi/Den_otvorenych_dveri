@@ -12,7 +12,7 @@ body {
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .carousel {
-    height: 40%;
+    height: 50%;
 }
 
 .item,
@@ -81,7 +81,8 @@ body>div.headline {
     position: absolute;
     z-index:1029;
     margin-left: 19%;
-    bottom: 500px;    
+    bottom: 450px;   
+    font-family: 'Roboto', sans-serif; 
 }
 
 body>div.headline>div.container {
@@ -90,48 +91,70 @@ body>div.headline>div.container {
 }
     
 .headline h1 {
+
     font-size: 90px;
-    font-weight: 700;
+    font-weight: 500;
     color:#fff;
 }
 
 .headline h2 {
     font-size: 47px;
     color: #fff;
-    font-weight: 500; 
+    font-weight: 100; 
 
 }
 
 /*---------------------------------------*/
 
 
-div.vsetko {
+div.obsah {
     /*background-color: rgba(35,185,206,0.6);*/
     background: #f7f7f7;
     margin: 2% 10% 0 10%;
     padding-bottom: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-div.vsetko * {
-    outline: 0px solid red;
+#info>article {
+    display:inline-block;
+    text-align: center;
+    max-width: 70%;
+    padding: 0 3%;
+    float:left;
+    margin-top: 40px;
+    line-height: 28px;
+
 }
 
-.featurette-divider {
-    margin: 80px 0;
+#info>article>h1 {
+    color:#666;
+    font-size: 53px;
+    padding-top:20px;
+    font-weight: 300;
+}
+#info>article>h1>span {
+    color:#23b9ce;
 }
 
-.featurette {
-    overflow: hidden;
+#info>article>p {
+    margin: 3%;
+    margin-top: 4%;
+    color: #666;
+    font-size: 19px;
+    font-weight: 100;
+
 }
 
-.featurette-image.pull-left {
-    margin-right: 40px;
+#info>aside>img {
+    display:inline-block;
+    float:right;
+    max-width: 30%;
+    padding: 2%;
 }
 
-.featurette-image.pull-right {
-    margin-left: 40px;
+#info<aside {
 }
 
-.featurette-heading {
-    font-size: 50px;
+div.obsah * {
 }
