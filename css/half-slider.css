@@ -273,8 +273,10 @@ div.video {
 }
 
 .video>span {
-    font-size:28px;
+    font-size:45px;
+    font-weight: 400;
     display:block;
     color: #f7f7f7;
+    padding-bottom: 20px;
 }
 
