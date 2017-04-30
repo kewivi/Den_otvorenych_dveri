@@ -260,3 +260,10 @@ span.special {
     line-height: 42px;
 }
 
+/*------------------*/
+
+div.video {
+    display:block;
+    text-align: center;
+}
+
