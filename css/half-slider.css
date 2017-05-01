@@ -94,6 +94,7 @@ body>div.headline {
 body>div.headline>div.container {
     background-color: #23b9ce;
     background-color: rgba(35,185,206,0.5);
+    padding: 1%;
 }
 
 
@@ -118,12 +119,18 @@ body>div.headline>div.container {
 /*----------------OBSAH----------------*/
 
 body>div.obsah {
-    background: #eee;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;  
     margin: 2% 10% 0 10%;
     overflow: auto;
     padding-top: 2%;
+}
+
+div.info {
+    background: #eee;
+    padding: 3%;
+    overflow: auto;
+
 }
 
 
@@ -175,9 +182,12 @@ body>div.obsah, div.obsah * {
 div.recap {
     clear:both;
     display:inline-block;
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
     margin: inherit auto;
+    background: #eee;
+    margin-bottom: 80px;
+    padding-top: 50px;
 }
 
 .recap ul {
@@ -233,11 +243,14 @@ span.special {
     font-size:20px;
     margin-top: 70px;
     margin-bottom: 50px;
+    background: #eee;
+    padding: 2%;
 }
 
 .program>p {
     font-size:28px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .program ul {
